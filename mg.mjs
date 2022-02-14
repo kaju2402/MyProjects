@@ -1,6 +1,3 @@
-//const wt =require('./mg.js')
-//console.log(wt)
-
 const minify = import(minify);
 //import {minify} from 'minify';
 const options = {
