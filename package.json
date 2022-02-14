@@ -1,0 +1,56 @@
+{
+  "name": "superproject",
+  "version": "1.0.0",
+  "main": "file.js",
+  "dependencies": {
+    "buffer-from": "^1.1.2",
+    "camel-case": "^4.1.2",
+    "clean-css": "^5.2.2",
+    "commander": "^8.3.0",
+    "css-b64-images": "^0.2.5",
+    "debug": "^4.3.3",
+    "dot-case": "^3.0.4",
+    "find-up": "^6.2.0",
+    "he": "^1.2.0",
+    "html-minifier-terser": "^6.1.0",
+    "jju": "^1.4.0",
+    "locate-path": "^7.0.0",
+    "lower-case": "^2.0.2",
+    "minify": "^8.0.3",
+    "ms": "^2.1.2",
+    "no-case": "^3.0.4",
+    "p-limit": "^4.0.0",
+    "p-locate": "^6.0.0",
+    "param-case": "^3.0.4",
+    "pascal-case": "^3.1.2",
+    "path-exists": "^5.0.0",
+    "readjson": "^2.2.2",
+    "relateurl": "^0.2.7",
+    "simport": "^1.2.0",
+    "source-map": "^0.6.1",
+    "source-map-support": "^0.5.21",
+    "terser": "^5.10.0",
+    "try-catch": "^3.0.0",
+    "try-to-catch": "^3.0.0",
+    "tslib": "^2.3.1",
+    "yocto-queue": "^1.0.0"
+  },
+  "scripts": {
+    "sm": "node mg.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaju2402/MyProjects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaju2402/MyProjects/issues"
+  },
+  "homepage": "https://github.com/kaju2402/MyProjects#readme",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "prettier": "2.5.1"
+  }
+}

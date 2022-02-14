@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "no-unused-vars":"error"
+  },
+"parserOptions": {
+  "ecmaVersion": 2022
+}
+}
