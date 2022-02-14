@@ -36,7 +36,9 @@
     "yocto-queue": "^1.0.0"
   },
   "scripts": {
-    "sm": "node mg.mjs"
+    "make it": "node mg.mjs",
+    "format" :"prettier --write *.js",
+    "lint": "eslist *.js"
   },
   "repository": {
     "type": "git",
@@ -51,6 +53,7 @@
   "description": "",
   "devDependencies": {
     "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "2.5.1"
   }

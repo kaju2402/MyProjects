@@ -1,2 +1,10 @@
-const myvar = 'Hello';
-module.exports =myvar;
+const minify = import(minify)
+//import {minify} from 'minify';
+const options = {
+        html: {
+                removeAttributeQuotes: false,
+                removeOptionalTags: false,
+        },
+}
+
+minify("./file.js", options).then(console.log).catch(console.error)
